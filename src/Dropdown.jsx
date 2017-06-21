@@ -1,21 +1,21 @@
 import React from 'react';
 
 class Dropdown extends React.Component {
-    constructor(props){
+
+    constructor(props) {
         super(props);
-        this.state = {isOpened: false};
+        this.state = { isOpened: false };
     }
 
-
-    toggleState(){
-        this.setState({isOpened: !this.state.isOpened});
+    toggleState() {
+        this.setState({ isOpened: !this.state.isOpened });
     }
 
     render() {
         console.log('isOpened', this.state.isOpened);
 
         let dropdownText;
-        if(this.state.isOpened){
+        if (this.state.isOpened) {
             dropdownText = <div>Here is dropdown text</div>;
         }
         return <div onClick={this.toggleState.bind(this)}>
