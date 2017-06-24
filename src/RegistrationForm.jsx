@@ -1,5 +1,7 @@
 import React from 'react';
 
+import style from './registrationForm.css';
+
 class RegistrationForm extends React.Component {
 
     constructor(props) {
@@ -29,8 +31,9 @@ class RegistrationForm extends React.Component {
                     placeholder="E-mail"
                     value={this.state.email}
                     onChange={this.handleEmailChange}
+                    className="emailField"
                 />
-                <button>Save</button>
+                <button className="submitBtn">Save</button>
             </form>
         );
     }

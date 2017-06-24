@@ -44,9 +44,10 @@
     "babel-register": "^6.9.0",
     "babel-template": "^6.9.0",
     "babel-types": "^6.9.0",
-    "css-loader": "^0.25.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
     "react-hot-loader": "^3.0.0-beta.3",
-    "style-loader": "^0.13.1",
+    "style-loader": "^0.13.2",
     "webpack-livereload-plugin": "^0.11.0"
   }
 }
